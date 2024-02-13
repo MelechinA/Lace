@@ -32,7 +32,7 @@
 <script>
 export default {
     name: 'classify-widget',
-    props:['mode','column', 'modelValue','rowobject', 'lengthrow'],
+    props:['mode','column', 'modelValue','rowobject', 'lengthrow'], // искать отметку в column
     emits: ['update:modelValue'],
     data(){
 //    console.log(this.modelValue)

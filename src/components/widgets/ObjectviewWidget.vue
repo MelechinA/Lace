@@ -81,7 +81,7 @@ rowobject.ref_classname_147o // table id
 <script>
 export default {
     name: 'objectview-widget',
-    props:['mode','column', 'modelValue', 'rowobject', 'meta'],
+    props:['mode','column', 'modelValue', 'rowobject', 'meta'], // попробовать найти путь в column
     emits: ['update:modelValue'],
     data(){ 
 //    console.log(this.modelValue)
